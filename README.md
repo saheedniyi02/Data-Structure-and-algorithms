@@ -8,5 +8,5 @@
     <li><a href="https://leetcode.com/problems/two-sum/">Two Sum</a></li>
     <li><a href="https://leetcode.com/problems/valid-palindrome/">Valid palindrome</a></li>
     <li><a href="https://leetcode.com/problems/valid-parentheses/">Valid Parentheses</a></li>
-
+    <li><a href="https://leetcode.com/problems/binary-search/">Binary Search</a></li>
 </ol>
