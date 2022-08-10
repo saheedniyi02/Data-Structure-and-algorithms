@@ -9,4 +9,6 @@
     <li><a href="https://leetcode.com/problems/valid-palindrome/">Valid palindrome</a></li>
     <li><a href="https://leetcode.com/problems/valid-parentheses/">Valid Parentheses</a></li>
     <li><a href="https://leetcode.com/problems/binary-search/">Binary Search</a></li>
+    <li><a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">search a Rotated array</a></li>
+
 </ol>
