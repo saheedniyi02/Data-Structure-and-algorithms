@@ -10,5 +10,6 @@
     <li><a href="https://leetcode.com/problems/valid-parentheses/">Valid Parentheses</a></li>
     <li><a href="https://leetcode.com/problems/binary-search/">Binary Search</a></li>
     <li><a href="https://leetcode.com/problems/search-in-rotated-sorted-array/">search a Rotated array</a></li>
-    <li><a href="https://leetcode.com/problems/https://leetcode.com/problems/permutations/">search a Rotated array</a></li>
+    <li><a href="https://leetcode.com/problems/https://leetcode.com/problems/permutations/">Permutations</a></li>
+    li><a href="https://leetcode.com/problems/subsets-ii/description/">Subset II</a></li>
 </ol>
