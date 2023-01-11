@@ -16,4 +16,5 @@
     <li><a href="https://leetcode.com/problems/palindrome-partitioning/">Palindrome Partitioning</a></li>
     <li><a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/">Letter Combinations of a Phone Number</a></li>
     <li><a href="https://leetcode.com/problems/combinations/">Combinations</a></li>
+    <li><a href="https://leetcode.com/problems/word-search/">Word Search</a></li>
 </ol>
