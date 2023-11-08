@@ -1,19 +1,28 @@
 class Solution:
-    def binary_search(self,nums, target):
-        low,high=0,len(nums)-1
-        while low<=high:
-            mid=(low+high)//2
-            if nums[mid]==target:
-                return True
-            if nums[mid]>target:
-                high=mid-1
-            else:
-                low=mid+1
-        return False
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        for nums in matrix:
-            print(nums)
-            if (nums[0]<=target) and (nums[-1]>=target):
-                #print(nums)
-                return self.binary_search(nums, target)
-           
+        #binary_search row
+        i,j=0,len(matrix)-1
+        while i<=j:
+            mid=(i+j)//2
+            if matrix[mid][0]<=target  and matrix[mid][-1]>=target:
+                break
+            if matrix[mid][0]>target:
+                j=mid-1
+            elif matrix[mid][-1]<target:
+                i=mid+1
+        if i>j:
+            return False
+        #print(mid)
+        
+        x,y=0,len(matrix[mid])
+        
+        while x<=y:
+            #print(x,y)
+            mid_col=(x+y)//2
+            if matrix[mid][mid_col]==target:
+                return True 
+            if matrix[mid][mid_col]>target:
+                y=mid_col-1
+            else:
+                x=mid_col+1
+        return False
